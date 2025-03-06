@@ -12,10 +12,6 @@
 
 ###
 
-<h5 align="center"><Quando eu terminar a responsividade do site e colocar ele no ar, disponibilizarei o link aqui/></h5>
-
-###
-
 <h2 align="left">🌐 Divisão do Site:</h2>
 
 ###
