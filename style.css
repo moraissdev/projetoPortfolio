@@ -93,7 +93,7 @@ ul {
     align-items: center; /*só funciona quando tem Display: flex */
     padding: 60px;
     min-height: 85vh;
-    margin: -25px auto;
+    margin: 0px auto;
     margin-left: 70px;
 }
 
