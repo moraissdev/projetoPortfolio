@@ -115,11 +115,13 @@ ul {
     color:#3557f2;
     font-weight: 700;
     font-family: "Archivo";
+    font-style: italic;
 }
 
 .titulo-big {
     font-size: 52px;
     font-family:"Archivo";
+    font-style: italic;
 }
 
 .principal p {
