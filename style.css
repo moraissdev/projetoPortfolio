@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +13,7 @@
 }
 
 body {
-    background-color: #050708;
+    background-color: #000000eb;
     color: white;
 }
 
@@ -45,7 +47,7 @@ body {
         transform: scale(1);
     }
     50% {
-        opacity: 0.7;
+        opacity: 0.8;
         transform: scale(1.3);
     }
     100% {
@@ -55,7 +57,7 @@ body {
 }
 
     .img-apresentacao {
-        width: 415px;
+        width: 450px;
         height: auto;
         border-radius: 225px;
         margin-right: 70px;
@@ -74,11 +76,15 @@ header {
     align-items: center;
 }
 
+.efeito-buton {
+    border: 2px solid #c3cad5;
+}
+
 ul {
     gap: 50px;
     display: flex;
     list-style: none;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .principal {
@@ -87,7 +93,7 @@ ul {
     align-items: center; /*só funciona quando tem Display: flex */
     padding: 60px;
     min-height: 85vh;
-    margin: 0 auto;
+    margin: -25px auto;
     margin-left: 70px;
 }
 
@@ -96,33 +102,39 @@ ul {
     line-height: 1;
     margin-bottom: 20px;
     letter-spacing: -2px;
+    font-family: "Archivo";
 }
 
 .principal span {
     color: #3557f2;
+    font-family:"Archivo";
 }
 
 .titulo-pagina {
     font-size: 42px;
     color:#3557f2;
     font-weight: 700;
+    font-family: "Archivo";
 }
 
 .titulo-big {
     font-size: 52px;
+    font-family:"Archivo";
 }
 
 .principal p {
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 22px;
     max-width: 500px;
     color: #c3cad5;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
     margin-left: 0px;
+    font-family: "Archivo";
+    font-style: italic;
 }
 
 .menu {
-    color:white;
+    color: #c3cad5;
+    font-family: "Archivo";
 }
 
 .menu:hover {
@@ -137,7 +149,8 @@ ul {
     border-radius: 5px;
     display: inline-block;
     font-weight: bold;
-    box-shadow: 0px 0px 15px #3557f2;
+    box-shadow: 0px 0px 0px #3557f2;
+    font-family:"Archivo";
 }
 
 .titulo-secao {
@@ -172,7 +185,7 @@ ul {
 }
 
 .card-projeto {
-    background-color: #1a17177d;
+    background-color: #1d1d1d;
     border-radius: 20px;
     overflow: hidden;
     width: 90%;
@@ -315,6 +328,7 @@ transition: transform 0.4s ease-in-out;
 
 bdi {
     font-size: 55px;
+    font-family:"Archivo";
 }
 
 h1 bdi::before {
@@ -347,14 +361,25 @@ img {
 .link-menu {
     background-color: #3557f2;
     color: #ffffff;
-    padding: 10px 10px;
-    border-radius:10px;
-    font-weight: 800;
+    padding: 15px 15px;
+    border-radius: 10px;
+    font-family: "Archivo";
 }
 
 .destaque {
-    font-size:22px;
+    font-size:24px;
     font-weight: 600;
+    font-family:"Archivo";
+}
+
+.facul {
+    font-family:"Archivo";
+    font-size: 24px;
+}
+
+b {
+    font-weight: 600;
+    font-size: 65px;
 }
 
 @media (max-width: 768px) {
