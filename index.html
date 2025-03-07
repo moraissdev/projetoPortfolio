@@ -9,12 +9,12 @@
 <body>
     <header>
         <div>
-        <h1><small class="titulo-pagina">&lt;</small><span class="titulo-big">Port</span><small class="titulo-pagina">fólio</small>/<small class="titulo-pagina">&gt;</small></h1>
+        <h1><span class="titulo-pagina">&lt;</span><span class="titulo-big">Port</span><span class="titulo-pagina">fólio</span><span class="titulo-pagina">&gt;</span></h1>
     </div>
         <ul>
-         <li class="efeito-menu"><a href="#" class="menu">Início</a></li>
-         <li class="efeito-menu"><a href="https://github.com/moraissdev" class="menu" target="_blank">Projetos</a></li>
-         <li class="efeito-menu"><a href="#" class="menu">Sobre</a></li>
+         <li class="efeito-menu"><a href="index.html" class="menu">Início</a></li>
+         <li class="efeito-menu"><a href="#visualizar-projetos" class="menu">Projetos</a></li>
+         <li class="efeito-menu"><a href="#biografia" class="menu">Sobre</a></li>
          <li class="efeito-menu"><a href="https://api.whatsapp.com/send?phone=5535991678166" class="menu" target="_blank">Contato</a></li>
          <li class="efeito-menu"><a href="https://www.linkedin.com/in/renansmorais/" class="menu" target="_blank"><span class="link-menu">LinkedIn</span></a></li>
         </ul>
@@ -22,19 +22,19 @@
 
     <section class="principal">
         <div class="conteudo">
-            <h1><bdi>Olá 👋,</bdi><br><b>eu sou</b> <span>Renan Morais</span>.</h1>
+            <h2><bdi>Olá 👋,</bdi><br><b>eu sou</b> <span>Renan Morais</span>.</h2>
             <p>Estudante da <big class="destaque"><abbr title="Uma das Universidades mais renomadas do Brasil na área de engenharia e tecnologia!" class="facul">Universidade Federal de Itajubá</abbr></big><br>e futuro <big class="destaque">Desenvolvedor Full-Stack</big>.<span class="effect"></span></p>
-            <a href="https://github.com/moraissdev" class="botao efeito-cursor efeito-buton" target="_blank">Ver Projetos</a>
+            <a href="https://github.com/moraissdev" class="botao efeito-cursor" target="_blank">Ver Projetos</a>
         </div>
-        <img src="principal.png" class="img-apresentacao">
+        <img src="img/principal.png" class="img-apresentacao">
     </section>
 
     <section class="secao">
-        <h2 class="titulo-secao">Projetos</h2>
+        <h2 class="titulo-secao" id="visualizar-projetos">Projetos</h2>
 
         <div class="grade-projetos">
             <div class="card-projeto efeito-cursor">
-                <img class="img-projeto" src="testando.png" height="250px" height="200px">
+                <img class="img-projeto" src="img/projetoemprogresso.png" height="250px" height="200px">
                 <div class="info-projeto efeito-cursor">
                     <h3>"Nome do Projeto"</h3>
                     <p>Descrição do projeto.</p>
@@ -43,7 +43,7 @@
             </div>
 
             <div class="card-projeto efeito-cursor">
-                <img class="img-projeto" src="testando.png" height="250px" height="200px">
+                <img class="img-projeto" src="img/projetoemprogresso.png" height="250px" height="200px">
                 <div class="info-projeto efeito-cursor">
                     <h3>"Nome do Projeto"</h3>
                     <p>Descrição do projeto.</p>
@@ -52,7 +52,7 @@
             </div>
 
             <div class="card-projeto efeito-cursor">
-                <img class="img-projeto" src="testando.png" height="250px" height="200px">
+                <img class="img-projeto" src="img/projetoemprogresso.png" height="250px" height="200px">
                 <div class="info-projeto efeito-cursor">
                     <h3>"Nome do Projeto"</h3>
                     <p>Descrição do projeto.</p>
@@ -65,12 +65,12 @@
 
 
     <section class="secao">
-        <h2 class="titulo-secao">Sobre Mim</h2>
+        <h2 class="titulo-secao" id="biografia">Sobre Mim</h2>
 
 
 
         <div class="sobre">
-            <img src="sobremim.png" class="img-sobre" width="400px" height="400px">
+            <img src="img/sobremim.png" class="img-sobre" width="400px" height="400px">
 
 
             <div class="conteudo-sobre">
@@ -79,14 +79,39 @@
                 <p>Além disso, fui enxadrista profissional, conquistando títulos brasileiros e me destacando em torneios internacionais, incluindo a sétima colocação no Campeonato Mundial Escolar e o terceiro lugar no Pan-Americano. Em 2023, iniciei um projeto para desenvolver um e-commerce de calçados esportivos, o que me incentivou a aprender e aplicar CSS para melhorar a aparência do site.</p>
 
                 <div class="habilidades">
-                    <span class="tag-habilidades"><abbr title="Linguagem de marcação">HTML5</abbr></span>
-                    <span class="tag-habilidades"><abbr title="Linguagem de estilos">CSS</abbr></span>
-                    <span class="tag-habilidades"><abbr title=" ">VSCODE</abbr></span>
-                    <span class="tag-habilidades"><abbr title=" ">JETBRAINS</abbr></span>
+                    <span class="tag-habilidades efeito-cursor">HTML5</span>
+                    <span class="tag-habilidades efeito-cursor">CSS</span>
+                    <span class="tag-habilidades efeito-cursor">VSCODE</span>
+                    <span class="tag-habilidades efeito-cursor">JETBRAINS</span>
                 </div>
             </div>
         </div>
     </section>
+
+    <div class="aluno-devclub">
+        <div>
+        <img src="img/alunodevclub.png" width="400px" class="img-aluno-devclub">
+        </div>
+
+        <div class="secao-aluno-devclub">
+            <h3 class="titulo-aluno-devclub">Aluno do DevClub</h3>
+            <h3 class="descricao-aluno-devclub">Trilha DevClub Full-Stack</h3>
+            <br>
+            <p class="texto-aluno-devclub">Ingressei no Dev Club em 05/03/2025 com o objetivo de me tornar Desenvolvedor Full-Stack. Durante o curso, terei aulas sobre diversas linguagens demandadas pelo mercado. Ao final de cada módulo, desenvolverei um projeto utilizando a linguagem aprendida para adicioná-lo ao meu portfólio e comprovar meu domínio sobre ela.<br><span class="devclub-modulos"> Módulos que terei no curso:</span></p>
+
+            <div class="modulos-curso">
+                <span class="modulos-curso-devclub efeitos-modulos-curso">Git & GitHub</span>
+                <span class="modulos-curso-devclub efeitos-modulos-curso">JavaScript</span>
+                <span class="modulos-curso-devclub efeitos-modulos-curso">Node.js</span>
+                <span class="modulos-curso-devclub efeitos-modulos-curso">React</span>
+                <span class="modulos-curso-devclub efeitos-modulos-curso">TypeScript</span>
+            </div>
+
+
+        </div>
+
+
+    </div>
 
     <section class="secao">
         <h2 class="titulo-secao">Contato</h2>
@@ -133,7 +158,7 @@
     </section>
 
     <footer>
-        <p>Copyright © 2025 <rodape class="rodape-site">moraissdev.com.br</rodape>. Todos os direitos reservados.</p>
+        <p>Copyright © 2025 <rodape class="rodape-site"><a href="#" class="rodape-link">moraissdev.com.br</a></rodape>. Todos os direitos reservados.</p>
         <p>Desenvolvido por <rodape class="rodape-site">Renan Morais</rodape>.</p>
     </footer>
 
