@@ -61,6 +61,7 @@ body {
         height: auto;
         border-radius: 225px;
         margin-right: 70px;
+        cursor: none;
     }
 
 .conteudo {
@@ -74,10 +75,7 @@ header {
     margin-left: 100px;
     margin-right: 100px;
     align-items: center;
-}
-
-.efeito-buton {
-    border: 2px solid #c3cad5;
+    border-bottom: 1px solid #c3cad51a;
 }
 
 ul {
@@ -97,7 +95,7 @@ ul {
     margin-left: 70px;
 }
 
-.principal h1 {
+.principal h2 {
     font-size: 75px;
     line-height: 1;
     margin-bottom: 20px;
@@ -108,6 +106,7 @@ ul {
 .principal span {
     color: #3557f2;
     font-family:"Archivo";
+    cursor: none;
 }
 
 .titulo-pagina {
@@ -116,12 +115,15 @@ ul {
     font-weight: 700;
     font-family: "Archivo";
     font-style: italic;
+    cursor: none;
 }
+
 
 .titulo-big {
     font-size: 52px;
     font-family:"Archivo";
     font-style: italic;
+    cursor: none;
 }
 
 .principal p {
@@ -132,6 +134,7 @@ ul {
     margin-left: 0px;
     font-family: "Archivo";
     font-style: italic;
+    cursor: none;
 }
 
 .menu {
@@ -195,6 +198,7 @@ ul {
 
 .info-projeto {
     padding: 20px;
+    margin-bottom: 15px;
 }
 
 .info-projeto h3 {
@@ -243,11 +247,25 @@ ul {
     display: flex;
     flex-wrap:wrap; /*quebrar linha automaticamente se ocupar toda linha horizontal*/
     margin-top: 20px;
+    cursor: none;
+    width: 63%;
+}
+
+.modulos-curso {
+    display: flex;
+    flex-wrap:wrap; /*quebrar linha automaticamente se ocupar toda linha horizontal*/
+    margin-top: 20px;
+    cursor: none;
+    width: 100%;
 }
 
 .rodape-site {
     color:#3557f2;
     font-weight: 700;
+}
+
+.rodape-link {
+    color: #3557f2;
 }
 
 .tag-habilidades {
@@ -258,6 +276,15 @@ ul {
     color: #3557f2;
     margin-bottom: 10px;
     margin-right: 10px; /* margin interna para espaçar cada item*/
+}
+.modulos-curso-devclub {
+    background-color: rgb(77, 124, 254, 0.2);
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #3557f2;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 .botoes-contato {
@@ -320,6 +347,16 @@ transition: transform 0.4s ease-in-out;
     transform: translateY(-7px);
 }
 
+.efeitos-modulos-curso {
+    transition: transform 0.4s ease-in-out;
+    }
+    
+.efeitos-modulos-curso:hover {
+        transform: translateY(-3px);
+        border: 1px solid #3557f2;
+        padding: 9px 10px;
+    }
+
 .efeito-menu {
     transition: transform 0.4s ease-in-out;
 }
@@ -331,9 +368,10 @@ transition: transform 0.4s ease-in-out;
 bdi {
     font-size: 55px;
     font-family:"Archivo";
+    cursor: none;
 }
 
-h1 bdi::before {
+h2 bdi::before {
     content: "";
     display: block;
     width: 100px;
@@ -382,6 +420,59 @@ img {
 b {
     font-weight: 600;
     font-size: 65px;
+    cursor: none;
+}
+
+.aluno-devclub {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 30px;
+    margin-right: 250px;
+    margin-left: 250px;
+    background-color: #2196f300;
+    border-radius: 5px;
+    border: 2px solid #607d8b2e;
+    margin-top: 115px;
+    margin-bottom: 115px;
+}
+
+.titulo-aluno-devclub {
+    color: #ffffff;
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-family: "Archivo";
+    font-weight: 900;
+    margin-top: -25px;
+}
+
+.descricao-aluno-devclub {
+    color: #3557f2;
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-family: "Archivo";
+    font-weight: 300;
+}
+
+.texto-aluno-devclub {
+    color: #c3cad5;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: "Archivo";
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.img-aluno-devclub {
+    border-radius: 10px;
+}
+
+.devclub-modulos {
+    color: #3557f2;
+    font-size: 18px;
+    font-family: "Archivo";
+    font-style: italic;
 }
 
 @media (max-width: 768px) {
@@ -401,7 +492,7 @@ b {
         padding: 60px 20px;
     }
 
-    .principal h1 {
+    .principal h2 {
         font-size: 52px;
     }
 
