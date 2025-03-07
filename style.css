@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: #000000;
+    background-color: #000000fa;
     color: white;
 }
 
@@ -348,11 +348,11 @@ transition: transform 0.4s ease-in-out;
     transform: translateY(-7px);
 }
 
-.efeitos-modulos-curso {
+.efeito-modulo-curso {
     transition: transform 0.4s ease-in-out;
     }
     
-.efeitos-modulos-curso:hover {
+.efeito-modulo-curso:hover {
         transform: translateY(-3px);
         border: 1px solid #3557f2;
         padding: 9px 10px;
@@ -363,7 +363,7 @@ transition: transform 0.4s ease-in-out;
 }
 
 .efeito-menu:hover {
-    transform: translateY(-7px);
+    transform: translateY(-3px);
 }
 
 bdi {
