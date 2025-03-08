@@ -16,7 +16,7 @@
 
 ###
 
-<p align="left">▪ CABEÇALHO<br>▪ QUEM EU SOU<br>▪ PROJETOS<br>▪ SOBRE MIM<br>▪ CONTATO<br>▪ RODAPÉ</p>
+<p align="left">▪ CABEÇALHO<br>▪ QUEM EU SOU<br>▪ PROJETOS<br>▪ SOBRE MIM<br>▪ CONTATO<br>▪ RODAPÉ<br>▪ ALUNO DEVCLUB</p>
 
 ###
 
