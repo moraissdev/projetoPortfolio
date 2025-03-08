@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: #000000fa;
+    background-color: #000000eb;
     color: white;
 }
 
@@ -190,7 +190,7 @@ ul {
 }
 
 .card-projeto {
-    background-color: #080808;
+    background-color: #100f0ff2;
     border: 2px solid #607d8b2e;
     border-radius: 20px;
     overflow: hidden;
@@ -334,7 +334,6 @@ footer {
     display: flex;
     justify-content: space-around;
     padding: 25px 5%;
-    border-top: 1px solid #607d8b2e;
     gap: 50px;
     background-color: #0c0d0d;
     font-size: 16px;
@@ -432,7 +431,7 @@ b {
     padding: 30px 30px;
     margin-right: 250px;
     margin-left: 250px;
-    background-color: #080808;
+    background-color: #100f0ff2;
     border-radius: 5px;
     border: 2px solid #607d8b2e;
     margin-top: 115px;
