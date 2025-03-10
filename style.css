@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Archivo, Sans-serif;
+    font-family: 'Archivo', sans-serif;
     text-decoration: none;
 }
 
@@ -98,12 +98,10 @@ ul {
     line-height: 1;
     margin-bottom: 20px;
     letter-spacing: -2px;
-    font-family: "Archivo";
 }
 
 .principal span {
     color: #3557f2;
-    font-family:"Archivo";
     cursor: none;
 }
 
@@ -111,7 +109,6 @@ ul {
     font-size: 42px;
     color:#3557f2;
     font-weight: 700;
-    font-family: "Archivo";
     font-style: italic;
     cursor: none;
 }
@@ -119,7 +116,6 @@ ul {
 
 .titulo-big {
     font-size: 52px;
-    font-family:"Archivo";
     font-style: italic;
     cursor: none;
 }
@@ -130,14 +126,12 @@ ul {
     color: #c3cad5;
     margin-bottom: 30px;
     margin-left: 0px;
-    font-family: "Archivo";
     font-style: italic;
     cursor: none;
 }
 
 .menu {
     color: #c3cad5;
-    font-family: "Archivo";
 }
 
 .menu:hover {
@@ -153,7 +147,6 @@ ul {
     display: inline-block;
     font-weight: bold;
     box-shadow: 0px 0px 0px #3557f2;
-    font-family:"Archivo";
 }
 
 .titulo-secao {
@@ -188,8 +181,7 @@ ul {
 }
 
 .card-projeto {
-    background-color: #100f0ff2;
-    border: 2px solid #607d8b2e;
+    background-color: #1d1d1d9e;
     border-radius: 20px;
     overflow: hidden;
     width: 90%;
@@ -197,24 +189,27 @@ ul {
 
 .info-projeto {
     padding: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .info-projeto h3 {
-    margin-bottom: 10px;
-    color:#3557f2;
+    margin-bottom: 12px;
+    color:#ffffff;
     font-size: 22px;
 }
 
 .info-projeto p {
     color:#c3cad5;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .info-projeto a {
-    color:#3557f2;
-    font-weight: 500;
+    color: #ffffff;
+    font-weight: 900;
     text-decoration: none;
+    background: #3557f2;
+    padding: 8px 14px;
+    border-radius: 30px;
 }
 
 .sobre {
@@ -365,7 +360,6 @@ transition: transform 0.4s ease-in-out;
 
 bdi {
     font-size: 55px;
-    font-family:"Archivo";
     cursor: none;
 }
 
@@ -401,17 +395,14 @@ img {
     color: #ffffff;
     padding: 15px 15px;
     border-radius: 10px;
-    font-family: "Archivo";
 }
 
 .destaque {
     font-size:24px;
     font-weight: 600;
-    font-family:"Archivo";
 }
 
 .facul {
-    font-family:"Archivo";
     font-size: 24px;
 }
 
@@ -440,7 +431,6 @@ b {
     color: #ffffff;
     font-size: 35px;
     margin-bottom: 15px;
-    font-family: "Archivo";
     font-weight: 900;
     margin-top: -25px;
 }
@@ -449,7 +439,6 @@ b {
     color: #3557f2;
     font-size: 22px;
     margin-bottom: 5px;
-    font-family: "Archivo";
     font-weight: 300;
 }
 
@@ -457,7 +446,6 @@ b {
     color: #c3cad5;
     font-size: 17px;
     font-weight: 300;
-    font-family: "Archivo";
     text-align: left;
     line-height: 1.5em;
 }
@@ -469,13 +457,10 @@ b {
 .devclub-modulos {
     color: #3557f2;
     font-size: 18px;
-    font-family: "Archivo";
     font-style: italic;
 }
 
 @media (max-width: 768px) {
-
-
     header {
         padding: 20px;
         
@@ -488,6 +473,7 @@ b {
 
     .secao {
         padding: 60px 20px;
+        margin-left: 5px;
     }
 
     .principal h2 {
@@ -500,5 +486,107 @@ b {
 
     .img-sobre {
         height: auto;
+        margin-bottom: 15px;
+    }
+
+    .conteudo-sobre h2 {
+        margin-bottom: 30px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .habilidades {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        cursor: none;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .grade-projetos {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .img-aluno-devclub {
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .aluno-devclub {
+        display: grid
+    ;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: space-around;
+        padding: 30px 20px;
+        margin-right: 15px;
+        margin-left: 15px;
+        background-color: #100f0ff2;
+        border-radius: 25px;
+        border: 2px solid #607d8b2e;
+        margin-top: 50px;
+        margin-bottom: 75px;
+    }
+
+    .titulo-aluno-devclub {
+        color: #ffffff;
+        font-size: 30px;
+        margin-bottom: 15px;
+        font-weight: 900;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .descricao-aluno-devclub {
+        color: #3557f2;
+        font-size: 25px;
+        margin-bottom: 5px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .modulos-curso {
+        flex-wrap: wrap;
+        margin-top: 20px;
+        cursor: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .modulos-curso-devclub {
+        background-color: rgb(77, 124, 254, 0.2);
+        padding: 12px 10px;
+        border-radius: 20px;
+        font-size: 20px;
+        color: #3557f2;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    .devclub-modulos {
+        color: #3557f2;
+        font-size: 20px;
+        font-style: italic;
+    }
+
+    .tag-habilidades {
+        background-color: rgb(77, 124, 254, 0.2);
+        padding: 10px 17px;
+        border-radius: 20px;
+        font-size: 16px;
+        color: #3557f2;
+        margin-bottom: 10px;
+        margin-right: 12px;
+    }
+
+    .card-projeto {
+        background-color: #1d1d1d9e;
+        border-radius: 20px;
+        overflow: hidden;
+        width: 100%;
     }
 }
