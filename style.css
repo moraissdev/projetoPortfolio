@@ -452,6 +452,10 @@ b {
     font-style: italic;
 }
 
+.header-border {
+    display: none;
+}
+
 @media (max-width: 768px) {
 
     header {
@@ -686,4 +690,26 @@ b {
         cursor: none;
         display: none;
     }
-}
+
+    .cursor {
+        pointer-events: none;
+        position: fixed;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        display: none;
+        top: 40px;
+        left: 200px;
+        background-color: rgb(77, 124, 254, 0.5);
+        z-index: 99;
+        transform: translate(-50%, -50%);
+    }
+
+    .header-border {
+            display: flex;
+            width: 350px;
+            margin: auto;
+            border-color: #c3c3c3;
+            opacity: 0.3;
+        }
+    }
